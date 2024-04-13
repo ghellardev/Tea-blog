@@ -24,12 +24,20 @@
     <h2>Contact Us</h2>
     <p>If you have any questions, suggestions, or feedback, feel free to contact us using the form below:</p>
     <form action="#" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+        <label for="first name">First Name:</label><br>
+        <input type="text" id="first name" name="first name"><br>
+        <label for="last name">Last Name:</label><br>
+        <input type="text" id="last name" name="last name"><br>
+        <p>Gender:
+            <label><input type="radio" name="gender" value="male" />Male</label> <label><input type="radio" name="gender" value="female" />Female</label> <label><input type="radio" name="gender" value="other" />Other</label>
+        </p>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <p><label>Date of Birth:<input type="date" name="birthDate"></label></p>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" cols="30" rows="4"> </textarea>
+        <p><label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br></p>
         <input type="submit" value="Submit">
     </form>
 </div>
